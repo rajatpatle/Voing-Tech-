@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+<title>SHOW ORDERS</title>
+{% endblock %}
+
+
+{%  block content %}
+<div class="container jumbotron">
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>product_name</th>
+            <th>product_description</th>
+            <th>product_price</th>
+            <th>product_brand</th>
+            <th>product_category</th>
+            <th class="pl-5">Action</th>
+         
+        </tr>
+    </thead>
+
+
+<tbody>
+    {% for i in data %}
+    <tr>
+        <td>{{i.product_name}}</td>
+        <td>{{i.product_descrpition}}</td>
+        <td>{{i.product_price}}</td>
+        <td>{{i.product_brand}}</td>
+        <td>{{i.product_category}}</td>
+        
+        <td>
+            <a href="{% url 'update_url' i.id %}"><button class="btn btn-outline-warning mr-3">UPDATE</button></a>
+            <a href="{% url 'delete_url' i.id %}"><button class="btn btn-outline-danger">DELETE</button></a>
+        </td>
+    </tr>
+    {% endfor %}
+</tbody>
+</table>
+</div>
+{% endblock %}
