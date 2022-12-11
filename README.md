@@ -1,5 +1,23 @@
 # Voing-Tech-
 Task 1
+
+Steps to run Project
+------------------------
+1. virtualenv venv
+2. venv\scripts\activate
+3. cd project1
+4. py manage.py runserver
+
+
+
+
+
+
+
+
+
+
+
 ---------
 . Create A Web Application in Django OR Flask with Proper coding standards and file 
 structure:
