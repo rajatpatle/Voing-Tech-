@@ -4,10 +4,13 @@ Task 1
 Steps to run Project
 ------------------------
 1. virtualenv venv
-2. venv\scripts\activate
-3. cd project1
-4. py manage.py runserver
-===================================
+2. -----------------
+3. venv\scripts\activate
+4. ------------------
+5. cd project1
+6. -----------------
+7. py manage.py runserver
+-------------------------------
 
 1. I performed Crud operation for Shopping Cart
 2. Steps That I did with proper documentations
