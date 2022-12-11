@@ -15,7 +15,7 @@ Steps to run Project
 1. I performed Crud operation for Shopping Cart
 2. Steps That I did with proper documentations
 3. I have created 2 apps in Django
-4.  Used SQlite as default
+4.  Used MySQL as database
 5.  Created HTML forms using jinja templates
 6.  Did not use the admin part of Django to insert or retrieve data.
 7.  Save data to database and retrived data
